@@ -4,12 +4,13 @@ fun main() {
     println("Enter first number :")
     var firstnumber = read.nextInt()
 
-   
-    var secondnumber = read.nextInt()
+    var tekno = Scanner(System.`in`)
     println("Enter secondnumber :")
+    var secondnumber = read.nextInt()
+
     if (firstnumber < secondnumber)
         println("$firstnumber is greater")
     else{
-        println("$secondnumber is lessthn")
+        println("$secondnumber is lessthan")
     }
 }
